@@ -1,1 +1,41 @@
+# Changelog
 
+## Version 1.0
+
+### Initial Setup
+- Created project structure
+- Added navigation menu
+- Added homepage content
+
+### Styling
+- Created mystyle.css
+- Added responsive design
+- Improved typography and colour scheme
+
+### JavaScript Features
+- Added search functionality
+- Added welcome message
+- Added dynamic date and time
+- Added form validation
+- Added user feedback messages
+
+### Gallery
+- Added Lightbox gallery
+- Added bread product images
+
+### Contact Features
+- Added contact form
+- Added enquiry form
+- Added Google Maps integration
+
+### SEO
+- Added title tags
+- Added meta descriptions
+- Added meta keywords
+- Added image alt text
+
+### Testing
+- Tested navigation links
+- Tested forms
+- Tested responsiveness
+- Fixed HTML validation errors
