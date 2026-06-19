@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<!--
+    Website: Albany Bread
+    Student Name: Thabang Ntlemo
+    Project: Web Development Assignment
+    Year: 2026
+    Student Number: ST10520185
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="author" content="Thabang Ntlemo">
+
+    <meta name="keywords"
+        content="Albany Bread, Bakery, Fresh Bread, Brown Bread, White Bread, South Africa">
+
+    <meta name="description"
+        content="Albany Bread provides fresh, high-quality bread baked daily for South African families.">
+
+    <title>Albany Bread | Home</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css_assets/mystyle.css">
+
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Welcome Message (JavaScript) -->
+    <p id="welcomeMessage"></p>
+
+    <!-- Header -->
+    <header>
+
+        <img src="images/newlogobread.jpg"
+             alt="Albany Bread Logo"
+             width="200">
+
+        <!-- Navigation -->
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="about_us.html">About Us</a>
+
+            <a href="services.html">Services</a>
+
+            <a href="enquiries.html">Enquiries</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Dynamic Date and Time -->
+        <p id="dateTime"></p>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <h2>Fresh Baked Every Day</h2>
+
+            <p>
+                Feel the Love. Feel the Freshness.
+            </p>
+
+            <!-- Lightbox Gallery -->
+            <div class="gallery">
+
+                <a href="images/Albany_background.jpg"
+                    data-lightbox="breadgallery"
+                    data-title="Albany Bread">
+
+                    <img src="images/Albany_background.jpg"
+                        alt="Albany Bread Freshly Baked Bread"
+                        width="350">
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Main Container -->
+        <div class="container">
+
+            <!-- Introduction -->
+            <section>
+
+                <h2>About Albany Bread</h2>
+
+                <p>
+                    Albany offers a variety of freshly baked bread products
+                    made from high-quality ingredients to satisfy every family.
+                </p>
+
+            </section>
+
+            <hr>
+
+            <!-- Search Products -->
+            <section>
+
+                <h2>Search Products</h2>
+
+                <input type="text"
+                    id="searchInput"
+                    placeholder="Search bread products..."
+                    onkeyup="searchProducts()">
+
+            </section>
+
+            <hr>
+
+            <!-- Featured Products -->
+            <section>
+
+                <h2>Featured Products</h2>
+
+                <div class="product">
+
+                    <h3>White Bread</h3>
+
+                    <p>
+                        Soft and fluffy, perfect for sandwiches.
+                    </p>
+
+                </div>
+
+                <div class="product">
+
+                    <h3>Brown Bread</h3>
+
+                    <p>
+                        Healthy and rich in fibre.
+                    </p>
+
+                </div>
+
+                <div class="product">
+
+                    <h3>French Baguette</h3>
+
+                    <p>
+                        Crispy on the outside and soft on the inside.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <hr>
+
+            <!-- Special Offer -->
+            <section>
+
+                <h2>Special Offer</h2>
+
+                <p>
+                    Buy 2 loaves and get 1 free every Friday!
+                </p>
+
+            </section>
+
+            <hr>
+
+            <!-- Call To Action -->
+            <section>
+
+                <h2>Visit Us Today</h2>
+
+                <p>
+                    Come and enjoy freshly baked bread straight from our ovens.
+                </p>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2026 Albany Bread. All Rights Reserved.</p>
+
+        <p>Designed and Developed by Thabang Ntlemo</p>
+
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lightbox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <!-- Your JavaScript -->
+    <script src="js_assets/myjavascript.js"></script>
+
+</body>
+
+</html>
